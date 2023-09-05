@@ -5,5 +5,5 @@ function getscreensize(){
 	let element = document.getElementById("sizeInfo");
 	let x = document.documentElement.clientWidth;
 	let y = document.documentElement.clientHeight;
-	element.innerText= "Width:" + " " + x + " " +"and"+ " "+ "Height:"+ "800";
+	element.innerText= `Width: ${x} Height: ${y}`;
 }
